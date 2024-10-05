@@ -136,3 +136,12 @@ section main form button:hover{
     background-color: rgb(1, 94, 216);
 }
 /* section/main/form/button (final) */
+
+/* section/footer/p (inicio) */
+section footer p{
+    color: white;
+}
+section footer p span{
+    color: #006eff;
+}
+/* section/footer/p (final) */
