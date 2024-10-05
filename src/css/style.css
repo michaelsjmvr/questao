@@ -1,0 +1,73 @@
+/* reset (inicio) */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* reset (final) */
+
+/* section (inicio) */
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: #161616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* section (final) */
+
+/* section/header (inicio) */
+section header{
+    max-width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #333;
+    padding: 12px;
+    border-radius: 6px;
+}
+/* section/header (final) */
+
+/* section/header/h1 (inicio) */
+section header h1{
+    color:white;
+}
+/* section/header/h1 (final) */
+
+/* section/header/p (inicio) */
+section header p{
+    color: rgb(221, 221, 221);
+    margin: 6px 0px;
+}
+/* section/header/p (final) */
+
+/* section/header/container (inicio) */
+section header .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 0px;
+}
+/* section/header/container (final) */
+
+/* section/header/container/p (inicio) */
+section header .container p{
+    color: white;
+}
+/* section/header/container/p (final) */
+
+/* section/header/container/a (inicio) */
+section header .container a{
+    padding: 10px 20px;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-left: 12px;
+}
+section header .container a:hover{
+    background-color: rgb(1, 94, 216);
+}
+/* section/header/container/a (final) */
