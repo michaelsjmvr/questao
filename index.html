@@ -5,18 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Questão</title>
     <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
     <section>
         <header>
             <h1>Questão</h1>
             <p>Crie suas próprias questões! Preenchendo os campos a seguir . Simples, rápido e ideal para testes personalizados.</p>
-            <div class="container">
-                <p>Deseja adicionar uma questão?</p>
-                <a href="#">Adicionar</a>
-            </div>
         </header>
-        <main></main>
+        <main>
+            <h2>Sua Questão</h2>
+            <form>
+                <div>
+                    <label for="pergunta">Pergunta:</label>
+                    <input class="inp-pergunta" type="text" id="pergunta" name="pergunta" placeholder="Digite a pergunta aqui">
+                </div>
+                
+                <div id="alternativas-container">
+                    <div class="campo-alternativa">
+                        <label for="alternativa-a">a)</label>
+                        <input class="inp-alternativa" type="text" id="alternativa-a" name="alternativa-a" placeholder="Digite a alternativa">
+                    </div>
+                </div>
+                
+                <div class="caixa-adicionar-gerar">
+                    <button type="button" id="adicionar-alternativa">Adicionar Alternativa</button>
+                    <button type="button" id="finalizar">Gerar Questão</button>
+                </div>
+            </form>
+        </main>
         <footer></footer>
     </section>
     <script src="/src/js/script.js"></script>

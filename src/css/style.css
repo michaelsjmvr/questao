@@ -1,3 +1,7 @@
+/* importações (inicio) */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+/* importações (final) */
+
 /* reset (inicio) */
 *{
     padding: 0;
@@ -14,6 +18,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 /* section (final) */
 
@@ -43,31 +48,91 @@ section header p{
 }
 /* section/header/p (final) */
 
-/* section/header/container (inicio) */
-section header .container{
+/* section/main (inicio) */
+section main{
+    max-width: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    background-color: #333;
+    padding: 12px;
+    border-radius: 6px;
     margin: 12px 0px;
 }
-/* section/header/container (final) */
+/* section/main (final) */
 
-/* section/header/container/p (inicio) */
-section header .container p{
+/* section/main/h2 (inicio) */
+section main h2{
     color: white;
 }
-/* section/header/container/p (final) */
+/* section/main/h2 (final) */
 
-/* section/header/container/a (inicio) */
-section header .container a{
+/* section/main/form (inicio) */
+section main form{
+    max-width: 330px;
+}
+/* section/main/form (final) */
+
+/* section/main/form/caixa-adicionar-gerar (inicio) */
+section main form caixa-adicionar-gerar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* section/main/form/caixa-adicionar-gerar (final) */
+
+/* section/main/form/label (inicio) */
+section main form label{
+    color: white;
+}
+/* section/main/form/label (final) */
+
+/* section/main/form/input (inicio) */
+section main form input{
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 5px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+section main form input:focus{
+    border-color: #006eff;
+    box-shadow: 0 0 5px rgba(0, 110, 255, 0.2);
+}
+/* section/main/form/input (final) */
+
+/* section/main/form/inp-pergunta (inicio) */
+section main form .inp-pergunta{
+    width: 330px;
+    margin: 6px 0px;
+}
+/* section/main/form/inp-pergunta (final) */
+
+/* section/main/form/inp-alternativa (inicio) */
+section main form .inp-alternativa{
+    width: 310px;
+}
+/* section/main/form/inp-alternativa (final) */
+
+/* section/main/form/campo-alternativa (inicio) */
+section main form .campo-alternativa{
+    margin: 6px 0;
+}
+/* section/main/form/campo-alternativa (final) */
+
+/* section/main/form/button (inicio) */
+section main form button{
     padding: 10px 20px;
     background-color: rgb(0, 110, 255);
     color: white;
     border-radius: 6px;
     text-decoration: none;
-    margin-left: 12px;
+    border: none;
+    margin: 6px 6px;
 }
-section header .container a:hover{
+section main form button:hover{
     background-color: rgb(1, 94, 216);
 }
-/* section/header/container/a (final) */
+/* section/main/form/button (final) */
