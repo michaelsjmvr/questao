@@ -75,7 +75,7 @@ section main form{
 /* section/main/form (final) */
 
 /* section/main/form/caixa-adicionar-gerar (inicio) */
-section main form caixa-adicionar-gerar{
+section main form .caixa-adicionar-gerar{
     display: flex;
     justify-content: center;
     align-items: center;
