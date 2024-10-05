@@ -29,10 +29,26 @@
                 </div>
                 
                 <div class="caixa-adicionar-gerar">
-                    <button type="button" id="adicionar-alternativa">Adicionar Alternativa</button>
-                    <button type="button" id="finalizar">Gerar Questão</button>
+                    <button type="button" id="adicionar-alternativa">Adicionar</button>
+                    <button type="button" id="limpar">Limpar</button>
+                    <button type="button" id="gerar-questao">Gerar</button>
                 </div>
             </form>
+            <section class="conteudo-gerado">
+                <div class="caixa-pergunta-alternativa">
+                    <div class="organizacao-btn">
+                        <a id="btn-copiar"><i class="bi bi-clipboard-check"></i> Copiar</a>
+                    </div>
+                    <h2><span id="destaque">Pergunta</span></h2>
+                    <p><span id="destaque">Alternativas</span></p>
+                </div>
+                
+                <div>
+                    <button id="btn-chatgpt">ChatGPT</button>
+                    <button id="btn-gemini">Gemini</button>
+                </div>
+                <a class="fechar" type="button" id="fechar-conteudo-gerado">Fechar página</a>
+            </section>
         </main>
         <footer>
             <p>Desenvolvido por <span>Michael Douglas</span>.</p>

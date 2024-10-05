@@ -137,6 +137,86 @@ section main form button:hover{
 }
 /* section/main/form/button (final) */
 
+/* section/main/conteudo-gerado (inicio) */
+section main .conteudo-gerado{
+    width: 100%;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #161616;
+}
+/* section/main/conteudo-gerado (final) */
+
+/* section/main/conteudo-gerado/caixa-pergunta-alternativa (inicio) */
+section main .conteudo-gerado .caixa-pergunta-alternativa{
+    max-width: 350px;
+    background-color: #333;
+    padding: 12px;
+    border-radius: 6px;
+}
+/* section/main/conteudo-gerado/caixa-pergunta-alternativa (final) */
+
+/* organizacao-do-btn-copiar */
+section main .organizacao-btn{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+/* section/main/conteudo-gerado/caixa-pergunta-alternativa/btn-copiar (inicio) */
+section main #btn-copiar{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    margin: 6px 0px;
+}
+section main #btn-copiar:hover{
+    color: #006eff;
+}
+/* section/main/conteudo-gerado/caixa-pergunta-alternativa/btn-copiar (final) */
+
+/* section/main/conteudo-gerado/h2|p (inicio) */
+section main .conteudo-gerado h2, p{
+    color: white;
+}
+/* section/main/conteudo-gerado/h2|p (final) */
+
+/* section/main/conteudo-gerado button (inicio) */
+section main .conteudo-gerado button{
+    padding: 10px 20px;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    margin: 6px 0px;
+}
+section main .conteudo-gerado button:hover{
+    background-color: rgb(1, 94, 216);
+}
+/* section/main/conteudo-gerado button (final) */
+
+/* fechar */
+section main .fechar{
+    padding: 10px 20px;
+    background-color: #D63939;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    margin: 6px 0px;
+}
+section main .fechar:hover{
+    background-color: #d62626;
+}
+
 /* section/footer/p (inicio) */
 section footer p{
     color: white;
