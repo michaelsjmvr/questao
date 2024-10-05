@@ -1,3 +1,4 @@
+// Adiciona mais alternativas
 let contador = 1; // Contador para as letras (a, b, c...)
 
 document.getElementById('adicionar-alternativa').addEventListener('click', () => {
@@ -26,6 +27,7 @@ document.getElementById('adicionar-alternativa').addEventListener('click', () =>
     contador++; // Incrementa o contador para a próxima letra
 });
 
+// Gera a questão
 document.getElementById('gerar-questao').addEventListener('click', () => {
     const pergunta = document.getElementById('pergunta').value.trim();
     const alternativas = document.querySelectorAll('#alternativas-container input[type="text"]');
@@ -61,11 +63,12 @@ document.getElementById('gerar-questao').addEventListener('click', () => {
     document.querySelector('.conteudo-gerado').style.display = 'flex';
 });
 
+// Oculta a área de conteúdo gerado
 document.getElementById('fechar-conteudo-gerado').addEventListener('click', () => {
-    // Oculta a área de conteúdo gerado
     document.querySelector('.conteudo-gerado').style.display = 'none';
 });
 
+// Limpa todos os campos 
 document.getElementById('limpar').addEventListener('click', () => {
     // Limpa o campo de pergunta
     document.getElementById('pergunta').value = '';
@@ -80,7 +83,7 @@ document.getElementById('limpar').addEventListener('click', () => {
     document.querySelector('.conteudo-gerado').style.display = 'none';
 });
 
-
+// Copia o conteúdo gerado
 document.getElementById("btn-copiar").addEventListener("click", function() {
     // Seleciona o conteúdo da div
     const pergunta = document.querySelector(".caixa-pergunta-alternativa h2").innerText;
@@ -97,13 +100,12 @@ document.getElementById("btn-copiar").addEventListener("click", function() {
     });
 });
 
-
+// Abre a nova guia do ChatGPT
 document.getElementById("btn-chatgpt").addEventListener("click", function() {
-    // Abre a nova guia do ChatGPT
     window.open('https://chat.openai.com/', '_blank');
 });
 
+// Abre a nova guia do Gemini
 document.getElementById("btn-gemini").addEventListener("click", function() {
-    // Abre a nova guia do ChatGPT
     window.open('https://gemini.google.com/app', '_blank');
 });
